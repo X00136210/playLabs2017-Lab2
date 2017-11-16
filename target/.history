@@ -1,0 +1,10 @@
+run
+compile
+clean
+help
+exit
+run
+activator
+run
+END
+exit
