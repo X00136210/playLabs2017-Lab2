@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/media/sf_student/playLabs2017-Lab2-master/playLabs2017-Lab2-master/app/controllers/HomeController.java:22:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   variable about[0m
-[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
-[0m[[0m[31merror[0m] [0m[0m        return ok(about.render());[0m
+[0m[[0m[31merror[0m] [0m[0m/media/sf_student/playLabs2017-Lab2/playLabs2017-Lab2-master/conf/routes:8:1: missing argument list for method about in class HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `about _` or `about(_)` instead of `about`.[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /about                      controllers.HomeController.about[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

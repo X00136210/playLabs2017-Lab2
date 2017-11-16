@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/media/sf_student/playLabs2017-Lab2-master/playLabs2017-Lab2-master/conf/routes
-// @DATE:Thu Nov 09 12:16:20 GMT 2017
+// @SOURCE:/media/sf_student/playLabs2017-Lab2/playLabs2017-Lab2-master/conf/routes
+// @DATE:Thu Nov 16 12:26:48 GMT 2017
 
 import play.api.mvc.Call
 
@@ -19,16 +19,16 @@ package controllers {
     }
 
   
-    // @LINE:8
-    def about(): Call = {
+    // @LINE:6
+    def index(name:String = "visitor"): Call = {
       
-      Call("GET", _prefix + { _defaultPrefix } + "about")
+      Call("GET", _prefix + play.core.routing.queryString(List(if(name == "visitor") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("name", name)))))
     }
   
-    // @LINE:6
-    def index(): Call = {
+    // @LINE:8
+    def about(name:String = "visitor"): Call = {
       
-      Call("GET", _prefix)
+      Call("GET", _prefix + { _defaultPrefix } + "about" + play.core.routing.queryString(List(if(name == "visitor") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("name", name)))))
     }
   
   }

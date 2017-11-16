@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/media/sf_student/playLabs2017-Lab2-master/playLabs2017-Lab2-master/conf/routes
-// @DATE:Thu Nov 09 12:16:20 GMT 2017
+// @SOURCE:/media/sf_student/playLabs2017-Lab2/playLabs2017-Lab2-master/conf/routes
+// @DATE:Thu Nov 16 12:26:48 GMT 2017
 
 package controllers;
 

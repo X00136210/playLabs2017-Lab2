@@ -4,7 +4,7 @@
 		module="playlabs2017-lab2-master-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171109114802"
+		publication="20171116121054"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
